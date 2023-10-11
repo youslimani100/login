@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+}
+.entete{
+	background: #ffffff;
+	margin: 20px 0;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@500&display=swap');
+.entete label{
+	color: #072b17; 
+	font-family: 'Noto Naskh Arabic', serif;
+	/* font: 3em bold;  */
+	text-align: right;
+	}
+.container_left{
+	margin: 10px;
+    position: relative;
+	overflow: hidden;
+	min-height: 480px;
+	width: 768px;
+	max-width: 100%;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 8px 24px  rgba(0, 32, 63, .45),
+		  0 8px 8px rgba(0, 32, 63, .45);
+}
+.form_container{
+	margin-top: 70px;
+    background-color: #fff;
+    position: absolute;
+	top: 0;
+	height: 100%;
+}
+.input_container{
+    background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	flex-direction: row;
+	padding: 5px;
+	height: 100%;
+	text-align: right;
+}
+input {
+	background-color: #adf0d1;
+	border: none;
+	padding: 12px 2px;
+	margin: 5px 0;
+	width: 50%;
+	text-align: right;
+}
+.input_container label{
+	background: #ffffff;
+    /* margin: 5px;    */
+	font: 1.2em bold; 
+	width: 25%;
+	direction: rtl;
+} 
+h2{
+	font-size:40px;
+	color: #156136;
+	padding: 10px;
+	height: 100%;
+	text-align: center;
+}
+button {
+	background-color: #adf0d1;
+	color: #00203f;
+	border: 1px solid #adf0d1;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 16px 32px;
+	margin-top: 24px;
+	letter-spacing: 1px;
+	border-radius: 50px;
+	border-color: rgba(0, 32, 63, .45);
+	transition: .2s ease-in;
+}
+button:hover {
+	cursor: pointer;
+	background-color: #00203f;
+	color: #adf0d1;
+}
+
+
